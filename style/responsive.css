@@ -1,0 +1,44 @@
+/* Navbar section responsive */
+
+@media screen and (max-width:576px){
+    .navbar{
+        margin-left: 10px;
+        margin-right:10px ;
+    }
+    .logo h2{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    .nav-item ul{
+        display:none;
+    }
+    .navbar i{
+        display: block;
+    }
+
+    /* Banner section */
+    .Explore-container{
+        margin-left: 10px;
+        margin-right:10px ;
+    }
+    .explore-input{
+        flex-direction: column;
+        gap: 30px;
+        width: 70vw;
+        margin: 0 auto;
+        
+    }
+    input ,select ,button{
+        width: 60vw;
+    }
+    .explore-content h3{
+        font-size: 2rem;
+    }
+    .Destination-container{
+        margin-left: 10px;
+        margin-right:10px ;
+    }
+    .row1 ,.row2 ,.row3{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

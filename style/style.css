@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+}
+header , main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Navbar section start */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.logo h2 span{
+    color: #FF5400;
+}
+.logo img{
+    width: 45px;
+    height: auto;
+    margin-right: 10px;
+}
+.nav-item ul{
+    display:flex;
+}
+.nav-item li{
+    list-style: none;
+    margin-left: 30px;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+#home{
+    color: #FF5400;
+    font-weight: 700;
+}
+.navbar i{
+    display: none;
+}
+/* navbar section start */
+
+/* Banner section start */
+.Explore-container{
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.explore-content{
+    max-width: 600px;
+}
+.explore-content h3{
+    font-size: 2.5rem;
+    color: white;
+    font-weight:800;
+    margin: 30px 0px;
+}
+.explore-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffff;
+    margin-bottom: 20px;
+}
+.explore-input{
+    background: rgba(255, 255, 255, 0.21);
+    margin-left: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+}
+
+input ,select ,button {
+    width: 120px;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#btn{
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: #fff;
+}
+/* banner section end */
+
+/* Destination section start */
+
+
+.dextination-container-heading{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.row1 ,.row2 ,.row3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.row2{
+    grid-template-columns: 0.80fr 1.5fr 0.70fr;
+}
+.row3{
+    grid-template-columns: 1.25fr 1.75fr;
+}
+.Destination-container img{
+    height: 250px;
+    width: 100%;
+    filter: brightness(90%);
+}
+.country-card{
+    position: relative;
+}
+.country-card p{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* destination section end */
