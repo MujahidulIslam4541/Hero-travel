@@ -64,4 +64,15 @@
         grid-template-columns: repeat(1,1fr);
     }
 
+    /* perfect section start */
+    .perfect-container{
+        margin: 0 10px;
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .perfect-text{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 }
