@@ -2,8 +2,7 @@
 
 @media screen and (max-width:576px){
     .navbar{
-        margin-left: 10px;
-        margin-right:10px ;
+        margin: 30px 10px;
     }
     .logo h2{
         font-size: 1.2rem;
@@ -18,8 +17,7 @@
 
     /* Banner section */
     .Explore-container{
-        margin-left: 10px;
-        margin-right:10px ;
+       margin: 0 10px;
     }
     .explore-input{
         flex-direction: column;
@@ -34,11 +32,36 @@
     .explore-content h3{
         font-size: 2rem;
     }
+
+    /* destination section */
     .Destination-container{
-        margin-left: 10px;
-        margin-right:10px ;
+        margin: 0 10px;
     }
     .row1 ,.row2 ,.row3{
         grid-template-columns: repeat(1,1fr);
     }
+
+
+
+    /* Popular section */
+    .popular-container{
+        flex-direction: column;
+        margin: 50px 10px;
+    }
+    .popular-text{
+        width: 100%;
+    }
+    .popular-btn{
+        width: 120px;
+        height: 35px;
+    }
+    /* choose section */
+    .choose-container{
+        margin: 0 10px;
+        margin-top: 50px;
+    }
+    .choose-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+
 }

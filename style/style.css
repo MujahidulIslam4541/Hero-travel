@@ -105,12 +105,43 @@ input ,select ,button {
     cursor: pointer;
 }
 
-#btn{
+.btn{
     border-radius: 8px;
     background: rgb(255, 84, 0);
     color: #fff;
 }
 /* banner section end */
+
+
+/* Our popular secction start */
+.popular-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.popular-text{
+    width: 50%;
+}
+.popular-text h1{
+    padding-bottom: 20px;
+}
+.ul{
+    padding-left: 25px;
+}
+.popular-container img{
+    width: 100%;
+}
+
+.popular-btn{
+    margin-top: 20px;
+}
+
+/* Our popular secctionend */
+
+
+
+
 
 /* Destination section start */
 
@@ -152,3 +183,53 @@ input ,select ,button {
 }
 
 /* destination section end */
+
+
+
+
+
+/* Choose section start */
+.choose-container{
+    margin-top: 80px;
+}
+.choose-heading{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.choose-heading h2{
+    font-size: 2rem;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.choose-card{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.card{
+    padding: 20px 30px;
+    background: rgba(247, 237, 218, 0.377);
+    border-radius: 10px;
+}
+.card img{
+    margin-top: 30px;
+}
+.card h3{
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+#card2{
+    background: rgba(171, 223, 240, 0.479);
+}
+#card3{
+    background: rgba(241, 194, 194, 0.445);
+    max-width: 430px;
+    margin: 30px auto ;
+}
+/* choose section end */
