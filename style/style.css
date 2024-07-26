@@ -267,3 +267,37 @@ input ,select ,button {
     width: 100%;
 }
 /* perfect section end */
+
+
+/* footer section start */
+footer{
+    margin-top: 80px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    padding: 30px 0;
+    width:70% ;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footer-container p{
+    color: rgb(90, 90, 93);
+    line-height: 25px;
+    margin-top: 20px;
+}
+.icon{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.icon i{
+    margin-left: 10px;
+}
+.copyright{
+    border-top:  1px solid rgba(19, 19, 24, 0.1);
+    color: black;
+    font-size: 1.1rem;
+}
