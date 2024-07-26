@@ -81,6 +81,15 @@
         margin-top: 80px;
         flex-direction: column;
     }
+    .save-up{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    .newsletter-img-btn{
+        width: 150px;
+        height: 50px;
+    }
 
     
 
